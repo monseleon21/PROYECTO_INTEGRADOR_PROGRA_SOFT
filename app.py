@@ -1,8 +1,6 @@
-#importacion del framework
 from flask import Flask,render_template,request,redirect,url_for,flash
 from flask_mysqldb import MySQL
 
-#Inicializacion del APP
 app = Flask (__name__)
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
